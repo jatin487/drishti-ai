@@ -11,7 +11,7 @@ export default function PerimeterSection() {
           <div className="sec-kicker">
             <span className="kicker-pill">
               <span className="kicker-dot" />
-              DRISHTI-X · PERIMETER SURVEILLANCE · ELEVATED SCHEMATIC
+              DRISHTI AI · PERIMETER SURVEILLANCE · ELEVATED SCHEMATIC
             </span>
           </div>
 

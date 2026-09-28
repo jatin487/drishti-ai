@@ -108,12 +108,12 @@ export default function Hero({
             <span className="hero-status-label">4 CAMS ACTIVE</span>
           </motion.div>
 
-          {/* DRISHTI-X glitch title */}
+          {/* DRISHTI AI glitch title */}
           <motion.h1 className="hero__title" variants={titleVariants}>
-            <span className="title-brand hero-glitch" data-text="DRISHTI-X">
-              DRISHTI-
+            <span className="title-brand hero-glitch" data-text="DRISHTI AI">
+              DRISHTI{" "}
               <motion.span className="brand-x" variants={amberXVariants}>
-                X
+                AI
               </motion.span>
             </span>
           </motion.h1>

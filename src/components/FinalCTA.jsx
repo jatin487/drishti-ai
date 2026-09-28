@@ -1,9 +1,7 @@
 import React from "react";
-import { motion, useReducedMotion } from "framer-motion";
 import ScrollReveal from "./ScrollReveal";
 
 export default function FinalCTA() {
-  const shouldReduceMotion = useReducedMotion();
 
   return (
     <section className="sec-cta">
@@ -16,12 +14,12 @@ export default function FinalCTA() {
           <div className="sec-kicker">
             <span className="kicker-pill kicker-pill--dark">
               <span className="kicker-dot" />
-              DRISHTI-X · AUTONOMOUS THREAT INTELLIGENCE · DEFENSE GRADE
+              DRISHTI AI · AUTONOMOUS THREAT INTELLIGENCE · DEFENSE GRADE
             </span>
           </div>
 
           <h2 className="cta-headline">
-            Deploy DRISHTI-X at your<br />next outpost
+            Deploy Drishti AI at your<br />next outpost
           </h2>
 
           <p className="cta-sub">
@@ -29,41 +27,16 @@ export default function FinalCTA() {
             No new hardware, no added crew.
           </p>
 
-          {/* Buttons with micro-interaction lift */}
-          <div className="cta-actions">
-            <motion.a
-              href="http://localhost:5001/login"
-              className="btn btn--primary cta-btn-primary"
-              whileHover={shouldReduceMotion ? {} : { y: -2 }}
-              transition={{ duration: 0.16 }}
-            >
-              Access Dashboard →
-            </motion.a>
-            <motion.button
-              className="btn cta-btn-ghost"
-              whileHover={shouldReduceMotion ? {} : { y: -2 }}
-              transition={{ duration: 0.16 }}
-            >
-              Request a Demo
-            </motion.button>
-          </div>
+
 
         </ScrollReveal>
 
-        {/* Continuous Scrolling Defense Ticker Ribbon (CSIR-CSIO & Intel stream) */}
+        {/* Continuous Scrolling Defense Ticker Ribbon */}
         <div className="cta-ticker-wrapper" aria-hidden="true">
           <div className="cta-ticker-track">
             <div className="cta-ticker-group">
               <span className="ticker-item">
-                <span className="ticker-dot-amber" /> CSIR-CSIO · CHANDIGARH
-              </span>
-              <span className="ticker-sep">/</span>
-              <span className="ticker-item">
-                <span className="ticker-dot-green" /> MINISTRY OF SCIENCE &amp; TECHNOLOGY · GOVT. OF INDIA
-              </span>
-              <span className="ticker-sep">/</span>
-              <span className="ticker-item">
-                <span className="ticker-dot-amber" /> DRISHTI-X AUTONOMOUS BORDER SURVEILLANCE
+                <span className="ticker-dot-amber" /> DRISHTI AI AUTONOMOUS BORDER SURVEILLANCE
               </span>
               <span className="ticker-sep">/</span>
               <span className="ticker-item">
@@ -81,15 +54,7 @@ export default function FinalCTA() {
             </div>
             <div className="cta-ticker-group" aria-hidden="true">
               <span className="ticker-item">
-                <span className="ticker-dot-amber" /> CSIR-CSIO · CHANDIGARH
-              </span>
-              <span className="ticker-sep">/</span>
-              <span className="ticker-item">
-                <span className="ticker-dot-green" /> MINISTRY OF SCIENCE &amp; TECHNOLOGY · GOVT. OF INDIA
-              </span>
-              <span className="ticker-sep">/</span>
-              <span className="ticker-item">
-                <span className="ticker-dot-amber" /> DRISHTI-X AUTONOMOUS BORDER SURVEILLANCE
+                <span className="ticker-dot-amber" /> DRISHTI AI AUTONOMOUS BORDER SURVEILLANCE
               </span>
               <span className="ticker-sep">/</span>
               <span className="ticker-item">

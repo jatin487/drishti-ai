@@ -45,7 +45,7 @@ export default function PipelineFlow() {
           <div className="sec-kicker">
             <span className="kicker-pill kicker-pill--dark">
               <span className="kicker-dot" />
-              DRISHTI-X · ARCHITECTURE · AI PIPELINE
+              DRISHTI AI · ARCHITECTURE · AI PIPELINE
             </span>
           </div>
 

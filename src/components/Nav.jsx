@@ -115,7 +115,7 @@ export default function Nav() {
           </div>
           <div className="brand-text">
             <span className="brand-title">
-              DRISHTI-<span className="brand-x">X</span>
+              DRISHTI <span className="brand-x">AI</span>
             </span>
           </div>
         </div>
@@ -149,22 +149,6 @@ export default function Nav() {
 
         {/* Actions */}
         <div className="top-nav__actions">
-          <motion.a
-            href="http://localhost:5001/login"
-            className="nav-btn nav-btn--primary"
-            whileHover={shouldReduceMotion ? {} : { y: -2 }}
-            transition={{ duration: 0.15 }}
-          >
-            <span className="nav-btn-label">Access Dashboard</span>
-            <motion.span
-              className="nav-arrow"
-              whileHover={shouldReduceMotion ? {} : { x: 4 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
-            >
-              ↗
-            </motion.span>
-          </motion.a>
-
           {/* Hamburger button — mobile only */}
           <button
             className={`nav-hamburger${mobileOpen ? " nav-hamburger--open" : ""}`}

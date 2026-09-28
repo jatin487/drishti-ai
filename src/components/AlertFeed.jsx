@@ -50,7 +50,7 @@ export default function AlertFeed() {
           <div className="sec-kicker">
             <span className="kicker-pill">
               <span className="kicker-dot kicker-dot--red" />
-              DRISHTI-X · ALERT FEED · LIVE EVENTS
+              DRISHTI AI · ALERT FEED · LIVE EVENTS
             </span>
           </div>
           <h2 className="sec-headline">Recent detections</h2>

@@ -26,7 +26,7 @@ export default function OutpostMap() {
           <div className="sec-kicker">
             <span className="kicker-pill">
               <span className="kicker-dot" />
-              DRISHTI-X · DEPLOYMENT · OUTPOST NETWORK
+              DRISHTI AI · DEPLOYMENT · OUTPOST NETWORK
             </span>
           </div>
           <h2 className="sec-headline">Live outpost network</h2>

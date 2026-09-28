@@ -58,7 +58,7 @@ export default function CapabilityGrid() {
           <div className="sec-kicker">
             <span className="kicker-pill">
               <span className="kicker-dot" />
-              DRISHTI-X · CAPABILITIES · FULL SPECTRUM
+              DRISHTI AI · CAPABILITIES · FULL SPECTRUM
             </span>
           </div>
 

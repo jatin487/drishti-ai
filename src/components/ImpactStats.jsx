@@ -17,7 +17,7 @@ export default function ImpactStats() {
           <div className="sec-kicker">
             <span className="kicker-pill kicker-pill--dark">
               <span className="kicker-dot" />
-              DRISHTI-X · PERFORMANCE · PROVEN METRICS
+              DRISHTI AI · PERFORMANCE · PROVEN METRICS
             </span>
           </div>
 
